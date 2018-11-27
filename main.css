@@ -78,6 +78,7 @@ h2 {
 
 .form-inline input[name='email'] {
   width: 80%;
+  text-align: auto;
 }
 #social-buttons {
   margin-top: 50px;
