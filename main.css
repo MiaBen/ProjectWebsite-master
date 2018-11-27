@@ -39,7 +39,11 @@
 .jumbotron h1 {
   font-family: "optima", sans-serif;
   color: white;
-  margin-bottom: 1em;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 220px;
 }
 
 
@@ -77,15 +81,17 @@ h2 {
 }
 
 .form-inline input[name='email'] {
-  width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+  width: 30%;
+    padding: 10px 20px;
+    margin: 100px 100px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     border: 2px solid black;
+    text-align: center;
 }
+label {font-family: "optima", sans-serif;}
 #social-buttons {
   margin-top: 50px;
 }
