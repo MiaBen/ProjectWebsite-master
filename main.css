@@ -1,0 +1,111 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "optima", sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('local_image_background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: "optima", sans-serif;
+  color: white;
+  margin-bottom: 1em;
+}
+
+
+blockquote {
+  border-left: 0;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+.jumbotron .form-group {
+  line-height: 1em;
+}
+
+.jumbotron label {
+  color: white;
+}
+.jumbotron img {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+.hometitle
+{background-color: pink;
+text-align: center;
+padding-bottom: 5px;
+padding-top: 5px;
+font-family: "Snell Roundhand", cursive;
+font-size: 25px;
+font-style: italic;
+}
